@@ -1,0 +1,102 @@
+[
+
+
+
+  {
+    "movie" : "Carlito's Way",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Al Pacino",
+    "age" : "https://youtu.be/f7Jw2F77GCI",
+    "Bio" : "Alfredo James Al Pacino is an American actor and filmmaker. He is well known for playing mobsters"
+
+
+  },
+
+
+  {
+
+    "movie" : "12 angry men",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Henry Fonda",
+    "age" : "https://youtu.be/mzPll63y2b0",
+    "Bio" : "Henry Jaynes 'Hank' Fonda (May 16, 1905 – August 12, 1982) was an American film and stage actor with a career spanning more than five decades."
+
+
+  },
+
+
+  {
+    "movie" : "Compliance",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Dreama Walker",
+    "age" : "https://youtu.be/WdONydDX44I",
+    "Bio" : "She graduated from Henry B. Plant High School in 2004 and, in 2006, made her debut on the screen."
+
+
+  },
+
+
+
+  {
+    "movie" : "Donnie Darko",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Jake Gyllenhaal",
+    "age" : "https://youtu.be/ZZyBaFYFySk",
+    "Bio" : "Jacob Benjamin Gyllenhaal was born in Los Angeles, to producer/screenwriter Naomi Foner (née Achs) and director Stephen Gyllenhaal..."
+
+
+  },
+
+
+
+  {
+
+    "movie" : "Idiocracy",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Luke Wilson",
+    "age" : "https://youtu.be/BBvIweCIgwk",
+    "Bio" : "Handsome Texan Luke Cunningham Wilson was born in Dallas in 1971, to Irish-American parents originally from Massachusetts...."
+
+
+
+  },
+
+
+  {
+
+    "movie" : "Inside Job",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Charles Ferguson",
+    "age" : "https://youtu.be/Dzs3Xwnf9Pw",
+    "Bio" : "Charles Ferguson is a producer and director, known for Inside Job (2010), No End in Sight (2007) and Untitled Wikileaks/HBO Project...."
+
+
+  },
+
+
+  {
+
+    "movie" : "Religulous",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Bill Maher",
+    "age" : "https://youtu.be/qMW1u3a2Qd8",
+    "Bio" : "Bill Maher was born in New York City and grew up in River Vale, NJ. His father, William, Sr., who was of Irish descent, was a radio announcer and news editor....."
+
+
+
+  },
+
+
+
+  {
+
+    "movie" : "The Usual Suspects",
+    "thumbnail" : "img/carlitosway.jpg",
+    "name" : "Kevin Spacy",
+    "age" : "https://youtu.be/oiXdPolca5w",
+    "Bio" : "As enigmatic as he is talented, Kevin Spacey has always kept the details of his private life closely guarded..."
+
+  }
+
+
+]

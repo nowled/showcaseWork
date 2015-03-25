@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="comedy">
+<head lang="en">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-controller="ComedyController as comedy">
+<div ng-repeat="product in comedy.products">
+
+    <h1> {{ product.name  }} </h1>
+    <h2> {{ product.time }} </h2>
+    <h3> {{ product.price | currency}}   </h3>
+
+
+    <button ng-show="product.showButton">Add to Cart</button>
+
+    <script type="text/javascript"  src="js/angular.min.js"></script>
+    <script type="text/javascript"  src="js/apps2.js"></script>
+</div>
+</body>
+</html>

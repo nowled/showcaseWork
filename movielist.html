@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app="movieApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Movie Titles</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+
+
+    <style>
+
+
+        body{
+
+            background-image: url("img/bg-content.jpg");
+
+        }
+
+        label{
+
+            color: deeppink;
+
+        }
+
+        h1{
+
+            color: deeppink;
+        }
+    </style>
+
+</head>
+<body>
+<ul>
+
+
+
+     <div class="container">
+    <div class="main" ng-controller="MyController">
+        <ul class="list-inline">
+            <li><a href="contact.html" class="btn btn-1">Contact</a></li>
+
+            <li><a href="index.html" class="btn btn-1">Home</a></li>
+            <li><a href="blog.html" class="btn btn-1">Blog</a></li>
+            <li><a href="movielist.html" class="btn btn-1">Movie Trailers</a></li>
+        </ul>
+        <div>
+            <h1 align="center">Movie Directory</h1>
+           <p align="center"> <label class="btn btn-1">Type the name of the movie: </label>
+            <input ng-model="query" align="center" placeholder="First page movies" autofocus></p>
+
+           <p align="center"> <label>Sort By:</label>
+
+            <select ng-model="artistOrder">
+
+             <option value="name">Name</option>
+                <option value="movie">Movie</option>
+
+            </select>
+
+            <label class="form-group">
+                <input type="radio" ng-model="direction" name="direction" checked>
+                ascending
+                </label>
+               <label class="form-group">
+                <input type="radio" ng-model="direction" name="direction" value="reverse">
+               descending
+               </label>
+
+
+        </div>
+
+
+        <ul class="artistlist">
+            <li ng-animate="animate" class="artist cf" ng-repeat= "movies in titles | filter: query | orderBy: artistOrder:direction">
+
+                <p style="text-align:center; padding-top:20px;">
+                    <h2>{{movies.movie}}</h2>
+
+                    <h4>{{movies.name}}</h4>
+                    <h3>{{movies.Bio}}</h3>
+
+
+
+               <a href="{{movies.age}}" class="btn btn-1">Watch {{movies.movie}} Trailer</a></p>
+
+            </li>
+
+
+        </ul>
+
+</div>
+
+
+<script>
+
+
+</script>
+<script src="js/angular.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+     <script src="js/movielist.js"></script>
+<script src="js/angular-route.min.js"></script>
+
+
+
+</body>
+</html>
